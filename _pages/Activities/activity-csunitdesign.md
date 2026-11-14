@@ -194,6 +194,7 @@ Here is a complete 45-minute PRIMM lesson you can adapt.  The lesson goal (UbD S
 
 **Starter code given to students (do not run it yet!):**
 
+<!-- run: id=cs352-activity-csunitdesign-1 viz=env -->
 ```python
 # This program should add up the numbers 1 through 5
 # and print 15. Does it?
@@ -202,6 +203,7 @@ for i in range(5):
     total = total + i
 print("The sum is", total)
 ```
+[Visualize this example](https://billjr99.github.io/Ursinus-CS352/viz/#cs352-activity-csunitdesign-1) <!-- code-viz link -->
 
 * **Predict (5 min, pairs)**: "Write down exactly what this program will print."  Collect predictions on the board; most students predict `The sum is 15`.
 * **Run (5 min)**: Students run it and see `The sum is 10`.  The gap between prediction and reality creates the need to know.
