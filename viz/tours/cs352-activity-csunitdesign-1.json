@@ -1,28 +1,33 @@
 {
  "code": "# This program should add up the numbers 1 through 5\n# and print 15. Does it?\ntotal = 0\nfor i in range(5):\n    total = total + i\nprint(\"The sum is\", total)",
- "description": "A walkthrough built from the code's structure: each part in reading order, then the moments to look at.",
+ "description": "You can inspect the supplied accumulator before considering any changes.",
  "example": "cs352-activity-csunitdesign-1",
  "lang": "python",
  "reviewed": false,
- "source": "skeleton",
+ "source": "draft: codex free model",
  "steps": [
   {
-   "description": "Lines 3-6 run the main code and print the results.",
+   "description": "The comment states the intended result, while total starts at zero. You can compare that intention with the executable lines below.",
    "kind": "reveal",
-   "lines": "3-6"
+   "lines": "1-3"
   },
   {
-   "description": "Line 4 loops over `range(5)`.",
-   "kind": "focus",
+   "description": "The loop uses range(5). Its bound determines the values supplied to i.",
+   "kind": "reveal",
    "lines": "4"
   },
   {
-   "description": "This is the end of the run: the final state, and all of the output.",
-   "kind": "run",
-   "lines": "6",
-   "trace_step": 13
+   "answer": "No. The supplied run prints The sum is 10.",
+   "kind": "predict",
+   "lines": "5-6",
+   "question": "Will the recorded program print the comment's intended result?"
+  },
+  {
+   "description": "You update total inside the loop and print it once afterward. The observed 10 gives you a concrete result to investigate against the stated intention.",
+   "kind": "reveal",
+   "lines": "5-6"
   }
  ],
- "title": "Worked Example: A PRIMM Lesson on a Buggy Python Loop",
+ "title": "Comparing a comment with its loop",
  "version": 1
 }
