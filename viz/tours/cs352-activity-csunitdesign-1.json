@@ -1,0 +1,28 @@
+{
+ "code": "# This program should add up the numbers 1 through 5\n# and print 15. Does it?\ntotal = 0\nfor i in range(5):\n    total = total + i\nprint(\"The sum is\", total)",
+ "description": "A walkthrough built from the code's structure: each part in reading order, then the moments to look at.",
+ "example": "cs352-activity-csunitdesign-1",
+ "lang": "python",
+ "reviewed": false,
+ "source": "skeleton",
+ "steps": [
+  {
+   "description": "Lines 3-6 run the main code and print the results.",
+   "kind": "reveal",
+   "lines": "3-6"
+  },
+  {
+   "description": "Line 4 loops over `range(5)`.",
+   "kind": "focus",
+   "lines": "4"
+  },
+  {
+   "description": "This is the end of the run: the final state, and all of the output.",
+   "kind": "run",
+   "lines": "6",
+   "trace_step": 13
+  }
+ ],
+ "title": "Worked Example: A PRIMM Lesson on a Buggy Python Loop",
+ "version": 1
+}
